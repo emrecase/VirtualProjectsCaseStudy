@@ -1,0 +1,5 @@
+*.csproj
+/VP/Library
+/VP/Logs
+/VP/Temp
+/VP/UserSettings
