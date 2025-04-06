@@ -56,7 +56,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -97,5 +97,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  attackPower: 10
+  attackPower: 50
   moveSpeed: 2
+  teamType: 0
+  movementType: 0
+  hitParticle: {fileID: 0}
+  deathParticle: {fileID: 0}
+  hitSound: {fileID: 0}
+  deathSound: {fileID: 0}

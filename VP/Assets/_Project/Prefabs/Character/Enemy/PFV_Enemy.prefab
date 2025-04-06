@@ -146,11 +146,6 @@ PrefabInstance:
       propertyPath: teamType
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6688426977377473883, guid: 891cac1325c84d34fa441571d48de05e,
-        type: 3}
-      propertyPath: maxHealth
-      value: 80
-      objectReference: {fileID: 0}
     - target: {fileID: 8764764540771222442, guid: 891cac1325c84d34fa441571d48de05e,
         type: 3}
       propertyPath: m_Name
