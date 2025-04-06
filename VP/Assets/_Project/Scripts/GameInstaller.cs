@@ -17,6 +17,6 @@ public class GameInstaller : MonoInstaller
         Container.BindInstance(enemyArmy).WithId("EnemyArmy").WhenInjectedInto<BattleManager>();
         
         // UnitPool'leri bağla (eğer kullanıyorsanız)
-        Container.Bind<UnitPooler>().FromComponentInHierarchy().AsSingle();
+        Container.Bind<IUnitPool>().FromComponentInHierarchy().AsSingle();
     }
 }
