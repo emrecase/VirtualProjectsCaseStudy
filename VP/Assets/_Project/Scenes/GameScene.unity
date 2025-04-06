@@ -122,37 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &54150466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 54150467}
-  m_Layer: 0
-  m_Name: Poolers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &54150467
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54150466}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +648,6 @@ MonoBehaviour:
   unitPrefab: {fileID: 4144059010333846151, guid: 41bfec14670369241a2655e94bcdc268,
     type: 3}
   initialPoolSize: 1000
-  canGrow: 1
 --- !u!1 &971379921
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,10 +693,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97fe2171f5c4b3e41a341ca3edace8ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armyType: 1
   formationType: 1
   unitCount: 999
-  unitSpacing: 1.1
+  unitSpacing: 1.25
+  moveDirection: {x: 0, y: 0, z: -100}
   pooler: {fileID: 968188715}
 --- !u!1 &1309583411
 GameObject:
@@ -808,7 +776,6 @@ MonoBehaviour:
   unitPrefab: {fileID: 4144059010333846151, guid: 008a3099a02d529488e95557570f6885,
     type: 3}
   initialPoolSize: 1000
-  canGrow: 1
 --- !u!1 &1443598097
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,10 +821,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97fe2171f5c4b3e41a341ca3edace8ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armyType: 0
   formationType: 1
   unitCount: 999
-  unitSpacing: 1.1
+  unitSpacing: 1.25
+  moveDirection: {x: 0, y: 0, z: 100}
   pooler: {fileID: 1366261828}
 --- !u!1 &1449097778
 GameObject:
@@ -1037,6 +1004,5 @@ SceneRoots:
   - {fileID: 1309583412}
   - {fileID: 646108157}
   - {fileID: 533720799}
-  - {fileID: 54150467}
   - {fileID: 819420658}
   - {fileID: 884951610}
